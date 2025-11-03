@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "picostage"
+version = "0.1.0"
+description = "Python driver for the Pico Stage Driver"
+authors = [
+  { name = "Martin Fischer", email = "Martin.Fischer@duke.edu" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+  "pyvisa>=1.14",
+  "pyvisa-py>=0.7",
+  "PySerial>=3.0"
+]
+
+keywords = ["stepper", "motor", "driver"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",   # adjust as needed
+    "Topic :: System :: Hardware"
+]
+
+[project.urls]
+Homepage = "Link to github repo"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
