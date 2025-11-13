@@ -6,7 +6,7 @@ The **Pico Stage Driver Project** is an open-source development of a low-cost, o
 
 A paper describing the design and implementation is published here:
 
-Mathias S. Fischer, David Grass, and Martin C. Fischer. Modular multi-axis stepper motor driver with remote control for use in microscopy. To be submitted to *ArXiv*
+Mathias S. Fischer, David Grass, and Martin C. Fischer, "Modular multi-axis stepper motor driver with remote control for use in microscopy," [arXiv:2511.09456](https://doi.org/10.48550/arXiv.2511.09456) (2025).
 
 Here we provide the [Bill of Materials](BOM.md), [Assembly Instructions](Assembly.md), and more detailed [Calibration Instructions](Calibration.md) than contained in the publication.
 
